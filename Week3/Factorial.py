@@ -21,9 +21,18 @@ class factorialDemo:
 
     def printValidFactorial(self,x,factorial):
         print('Factorial of', x, 'is:', factorial)
-
+    
+    def checkInputPrimeOrNot(self):
+        for i in range(2,self.x):
+            if(self.x % i == 0):
+                print(self.x,'is not a prime number')
+                break
+            else:
+                print(self.x,'is a prime number')
+                break
 
 
 demo = factorialDemo()
 demo.getInput()
 demo.findFactorial()
+demo.checkInputPrimeOrNot()
