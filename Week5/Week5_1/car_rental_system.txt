@@ -1,0 +1,10 @@
+-The system must allow adding two types of users Admin and Customer
+-Registered users should be able to login to the system
+-Admins must be able to manage the vehicles and rental records
+-Customers should be able to view available vehicles
+-Admins should be able to add, delete, modify vehicle records
+-Customers should be book vehicle, once a vehicle booked the status of the vehicle should be rented
+-System should calculate the renting cost based on the number of days and the modal
+-User should be able to view the transaction history
+-Admin should be able to view the transaction records
+-Once vehicle is returned the status of vehicle should be available
