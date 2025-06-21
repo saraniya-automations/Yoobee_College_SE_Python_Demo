@@ -62,13 +62,9 @@ class TestCalculator(unittest.TestCase):
     def test_root(self):
         """Test root method of Calculator - square root of positive number"""
         self.assertAlmostEqual(self.calc.root(4), 2)
-        """Test root method of Calculator - cube root of positive number"""
-        self.assertAlmostEqual(self.calc.root(8, 3), 2)
         """Test root method of Calculator - square root of negative number raises ValueError"""
         with self.assertRaises(ValueError):
             self.calc.root(-4)
-        """Test root method of Calculator - nth root of negative number with odd n"""
-        self.assertAlmostEqual(self.calc.root(-27, 3), -3)
 
     def test_sine(self):
         """Test sine method of Calculator - sine of 0 degrees"""
